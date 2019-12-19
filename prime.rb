@@ -1,4 +1,5 @@
-def prime?(integers)
+def prime?(num)
+  
 
 
 end  
