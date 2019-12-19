@@ -1,9 +1,13 @@
-def prime?(nums)
+
+
+
+
+
+def prime?(num)
   n = 2       #prime numbers are not divisible by 2 
-  
-  if nums % n == 0 do |num| 
-    return false  
-  else
-    true
+  while n < num
+    return false if num % n == 0
+    n += 1  
   end
+  true
 end  
