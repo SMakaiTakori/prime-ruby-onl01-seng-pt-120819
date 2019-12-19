@@ -1,5 +1,5 @@
 def prime?(num)
-  n = -2       #prime numbers are not divisible by 2 
+  n = 2       #prime numbers are not divisible by 2 
   while n < num 
     return false if num % n == 0
     n += 1  
